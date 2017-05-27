@@ -1,0 +1,24 @@
+{
+  "name": "100-Template-preview2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "isotope-layout": "^3.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/technext/100-Template-preview2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/technext/100-Template-preview2/issues"
+  },
+  "homepage": "https://github.com/technext/100-Template-preview2#readme"
+}
