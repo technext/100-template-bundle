@@ -178,11 +178,29 @@ a:active {
 }
 
 .header {
-  padding: 100px;
+  margin-top:150px;
+  margin-bottom: 150px;
   text-align: center;
 
 }
 
+.header-text {
+  color: #0095eb;
+  font-size: 80px;
+  line-height: 80px;
+  display: inline-block;
+  font-weight: 700;
+  border: 5px solid #0095eb;
+  letter-spacing: -6px;
+  padding: 0px 25px 7px;
+  margin-bottom: 25px;
+}
+
+
+.header-text2 {
+  color: #7c8387;
+  margin-bottom: 10px;
+}
 
 .hover-shadow {
   border-radius: 6px;
@@ -202,7 +220,7 @@ a:active {
   border-color: #222;
 }
 .hover-shadow:hover {
-  box-shadow: 0 23px 40px #999999;
+  box-shadow: 0 23px 40px #ffffff;
 }
 
 .text-center {
@@ -309,10 +327,14 @@ a:active {
   color: #fff;
   background: #101e2a;
   border-color: #3f3f3f;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 47px;
+  padding-right: 47px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.category2:focus {
+  background: #fff;
 }
 .category2:hover {
   color: #fff;
@@ -324,6 +346,7 @@ a:active {
 .background-list {
   background-color: #101e2a;
   color: #fff;
+  padding: 10px;
 }
 
 /*.background-list a{
@@ -332,10 +355,67 @@ a:active {
 }*/
 
 .dropdown-menu>li>a {
-     color: #337ab7;
+   color: #8f8f8f;
+   padding: 4px 20px;
 }
 
 .dropdown-menu>li>a:hover {
      color: #fff;
      background-color: #101e2a;
+}
+
+
+.footer-up {
+  background-color: #153241;
+  color: #fff;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  text-align: center;
+}
+
+.footer-up h2 {
+  color: #fff;
+}
+
+.footer-up p {
+  font-size: 18px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  background: #101e2a;
+  padding: 15px 0;
+  text-align: center;
+}
+
+footer span.copyright {
+  color: #999999;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  line-height: 19px;
+  font-weight: 400;
+}
+
+footer span.copyright a:active, footer span.copyright a:focus {
+  color: #FFFFFF;
+}
+
+a.website {
+  color: #999999;
+}
+
+a.website:hover {
+  color: #00c8aa;
+}
+
+.footer-site {
+  color: #fff;
+ }
+
+ .footer-site:hover {
+  color: #00c8aa;
 }
