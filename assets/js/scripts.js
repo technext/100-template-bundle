@@ -1,7 +1,8 @@
 // external js: isotope.pkgd.js
 
 
-// init Isotope
+$(window).on("load", function() {
+    // init Isotope
 var $grid = $('.grid').isotope({
   layoutMode: 'fitRows',
   fitRows: {
@@ -32,9 +33,20 @@ $('.button-group').each( function( i, buttonGroup ) {
     $( this ).addClass('is-checked');
   });
 });
+});
+
+
   
 /*$(document).ready(function(){
         $('.dropdown-toggle').dropdown()
     });*/
 
 
+$(window).scroll(function(){
+  $(this).scrollTop()>100?
+  $(".scroll-up").fadeIn():
+  $(".scroll-up").fadeOut()
+}),
+$('a[href="#totop"]').click(function(){
+  return $("html, body").animate({scrollTop:0},"slow"),!1
+});
