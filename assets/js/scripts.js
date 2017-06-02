@@ -43,7 +43,7 @@ $('.button-group').each( function( i, buttonGroup ) {
 
 
 $(window).scroll(function(){
-  $(this).scrollTop()>100?
+  $(this).scrollTop()>500?
   $(".scroll-up").fadeIn():
   $(".scroll-up").fadeOut()
 }),
