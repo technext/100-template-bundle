@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,100,300,700");
 
 /**! 01. Reset **/
 *,
@@ -29,7 +30,7 @@ body {
   line-height: 1.85714286em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
   color: #666666;
   font-weight: 400;
 }
@@ -46,7 +47,7 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+  font-family: "Roboto", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
   color: #252525;
   font-weight: 300;
   font-variant-ligatures: common-ligatures;
@@ -270,9 +271,6 @@ a:active {
 
 /* ---- button-group ---- */
 
-/*.button-group {
-  margin-bottom: 20px;
-}*/
 
 a.btn.btn-success {
     padding: 20px 40px;
@@ -294,9 +292,6 @@ a.btn.btn-success {
   margin-left: 0;
   margin-right: 1px;
 }
-
-/*.button-group .button:first-child { border-radius: 0.5em 0 0 0.5em; }
-.button-group .button:last-child { border-radius: 0 0.5em 0.5em 0; }*/
 
 /* ---- isotope ---- */
 
@@ -335,10 +330,12 @@ a.btn.btn-success {
   color: #fff;
   background: #101e2a;
   border-color: #3f3f3f;
-  padding-left: 47px;
-  padding-right: 47px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-top: 10px;
   padding-bottom: 10px;
+  border-radius: 0;
+  min-width: 200px;
 }
 
 .category2:focus {
@@ -355,6 +352,7 @@ a.btn.btn-success {
   background-color: #101e2a;
   color: #fff;
   padding: 10px;
+  margin: 0;
 }
 
 .background-list li{
@@ -371,6 +369,11 @@ a.btn.btn-success {
      background-color: #101e2a;
 }
 
+.cat-hov:hover > ul
+{
+  display:list-item;
+  z-index:100;
+}
 
 .footer-up {
   background-color: #153241;
@@ -454,3 +457,6 @@ a.website:hover {
     border-radius: 2px;
 }
 
+p.view-cat {
+    margin-bottom: 5px;
+}
