@@ -21,7 +21,6 @@ $(window).on("load", function() {
   });
 
     $(".background-list > li").click(function() {
-    console.log($(this).text());
      $(".cat-text").text($(this).text()); 
   });
 });
