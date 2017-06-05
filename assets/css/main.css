@@ -207,7 +207,6 @@ a:active {
   border-radius: 6px;
   backface-visibility: hidden;
   overflow: hidden;
-  border: 1px solid #ececec;
   transition: 0.35s ease-out;
   -webkit-transition: 0.2s ease-in-out;
   -moz-transition: 0.35s ease-out;
@@ -295,16 +294,12 @@ a.btn.btn-success {
 
 /* ---- isotope ---- */
 
-
-
 /* clear fix */
 .grid:after {
   content: '';
   display: block;
   clear: both;
 }
-
-
 
 .element-item.alkali          { background: #F00; background: hsl(   0, 100%, 50%); }
 .element-item.alkaline-earth  { background: #F80; background: hsl(  36, 100%, 50%); }
@@ -316,9 +311,6 @@ a.btn.btn-success {
 .element-item.diatomic        { background: #00F; background: hsl( 252, 100%, 50%); }
 .element-item.halogen         { background: #F0F; background: hsl( 288, 100%, 50%); }
 .element-item.noble-gas       { background: #F08; background: hsl( 324, 100%, 50%); }
-
-
-
 
 
 .category {
@@ -365,8 +357,8 @@ a.btn.btn-success {
 }
 
 .dropdown-menu>li>a:hover {
-     color: #fff;
-     background-color: #101e2a;
+  color: #fff;
+  background-color: #101e2a;
 }
 
 .cat-hov:hover > ul
