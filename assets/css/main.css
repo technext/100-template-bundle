@@ -182,18 +182,17 @@ a:active {
   margin-top:110px;
   margin-bottom: 110px;
   text-align: center;
-
 }
 
 .header-text {
   color: #0095eb;
-  font-size: 75px;
+  font-size: 60px;
   line-height: 75px;
   display: inline-block;
-  font-weight: 700;
-  border: 8px solid #0095eb;
-  letter-spacing: -6px;
-  padding: 0px 10px 6px;
+  font-weight: 100;
+  border-bottom: 1px solid #0095eb;
+  letter-spacing: -3px;
+  padding: 0px 10px 0px;
   margin-bottom: 25px;
 }
 
@@ -201,6 +200,7 @@ a:active {
 .header-text2 {
   color: #7c8387;
   margin-bottom: 10px;
+  font-size: 25px;
 }
 
 .hover-shadow {
@@ -272,10 +272,11 @@ a:active {
 
 
 a.btn.btn-success {
-    padding: 20px 40px;
-    text-transform: uppercase;
+    padding: 20px 60px;
+    /* text-transform: uppercase; */
     font-weight: bold;
     margin-top: 80px;
+    letter-spacing: 0.5px;
 }
 
 
